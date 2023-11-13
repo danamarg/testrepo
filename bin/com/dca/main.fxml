@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import com.dca.gui.components.MainMenuBar?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dca.gui.components.MainController">
+   <children>
+      <MainMenuBar fx:id="mainMenuBar" minHeight="30" minWidth="1000" />
+      <TabPane fx:id="tabPane" prefHeight="10000" prefWidth="10000">
+        <tabs>
+
+        </tabs>
+
+      </TabPane>
+   </children>
+</VBox>
