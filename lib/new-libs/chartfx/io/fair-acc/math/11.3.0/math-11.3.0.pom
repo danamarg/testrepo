@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>io.fair-acc</groupId>
+    <artifactId>chartfx-parent</artifactId>
+    <version>11.3.0</version>
+    <relativePath>..</relativePath>
+  </parent>
+  <groupId>io.fair-acc</groupId>
+  <artifactId>math</artifactId>
+  <version>11.3.0</version>
+  <name>chartfx_math</name>
+  <description>A small set of math routines that can operate directly on the DataSet primitive for fitting,
+        computing spectra, linear algebra, FIR/IIR filtering, and other functionalities common to signal processing.</description>
+  <licenses>
+    <license>
+      <name>LGPLv3</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.html</url>
+    </license>
+  </licenses>
+  <properties>
+    <project.moduleName>io.fair_acc.math</project.moduleName>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>io.fair-acc</groupId>
+      <artifactId>dataset</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.wendykierp</groupId>
+      <artifactId>JTransforms</artifactId>
+      <version>3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-math3</artifactId>
+      <version>3.6.1</version>
+    </dependency>
+    <dependency>
+      <groupId>net.jafama</groupId>
+      <artifactId>jafama</artifactId>
+      <version>2.3.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>io.fair-acc</groupId>
+        <artifactId>generate</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>

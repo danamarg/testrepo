@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>io.fair-acc</groupId>
+    <artifactId>chartfx-parent</artifactId>
+    <version>11.3.0</version>
+  </parent>
+  <groupId>io.fair-acc</groupId>
+  <artifactId>bench</artifactId>
+  <version>11.3.0</version>
+  <name>chartfx-bench</name>
+  <description>Utilities for benchmarking during live operations.</description>
+  <licenses>
+    <license>
+      <name>LGPLv3</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.html</url>
+    </license>
+  </licenses>
+  <properties>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <project.moduleName>io.fair_acc.bench</project.moduleName>
+  </properties>
+</project>
